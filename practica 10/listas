@@ -1,0 +1,10 @@
+
+nombres = ["rodrigo","juan","pedro","santiago","jorge","raymundo"]
+print(nombres)
+ 
+for i, nombre in enumerate(nombres):
+
+    print(f"se inscribio {nombre} en la lista con el indice{i}")
+    
+print("bienvenidos a la fiesta",nombres[:3])
+print("lo sentimos ",nombres[:3])
