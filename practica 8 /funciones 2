@@ -1,0 +1,6 @@
+def saludar_y_sumar(nombre,num1,num2=0):
+    print("saludos",nombre)
+    print("resultado de la suma",num1+num2)
+saludar_y_sumar("rodrigo",10,5)
+saludar_y_sumar("juan",2)
+saludar_y_sumar("Pedro",800,5000)
