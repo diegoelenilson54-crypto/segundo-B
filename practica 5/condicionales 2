@@ -1,0 +1,15 @@
+print("escribe tu nombre:")
+nombre = input()
+#print escribe tu edad
+#edad = int(input())
+
+#elif
+#operadores logicos
+#and (y) / or (o)
+#and: todas las expresiones tienen que ser true
+#or: con que una de las expresiones sean true
+#<>  <= >=
+if nombre == "Rodrigo" and nombre == "Santiago":
+    print("me gusta tu nombre")
+else:
+    ("que nombre tan extraño")
