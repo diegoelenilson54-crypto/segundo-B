@@ -1,0 +1,29 @@
+#ciclo interracion, bucle
+
+#while
+
+i = 0
+while i <10 :
+    if i <5:
+     print("el numero ",i,"es menor a 5")
+    else:
+     print("el numero ",i,"es mayor o igual a 5")
+    i+= 1
+print("termino la interaccion")
+
+
+
+
+
+while True:
+    print("escribe la opcion deseada")
+    print("1: saludar")
+    print("2: salir")
+    respuesta = int(input())
+    
+    if respuesta == 1:
+        print("saludos terricola terricola")
+        
+    elif respuesta == 2:
+        break
+print("terminando programa")
