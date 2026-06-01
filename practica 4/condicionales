@@ -1,0 +1,11 @@
+#logico bolean boleano bool
+#verdadero/falso:true/false
+#dato 5<5
+#>< ==
+print("ingresa tu nombre")
+nombre = input()
+
+if nombre == "Rodrigo":
+    print("bienvenido Rodrigo")
+else:
+    print("que nombre tan extraño")
